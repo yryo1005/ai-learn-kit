@@ -1,0 +1,21 @@
+# 教材リポジトリでは，公開するファイルのみを許可する
+*
+
+!.gitignore
+!.gitmodules
+!README.md
+!ex*.ipynb
+!ex*.md
+!figures/
+!figures/**
+!report.pdf
+
+# ローカル開発用（明示的に除外）
+outputs/
+datasets/
+.venv_*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+tokens.json
+*.pth
